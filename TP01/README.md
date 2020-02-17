@@ -1,9 +1,9 @@
-# MIF12-Lab TP1: Entrées / Sorties
+# MIF18-Lab TP1: Entrées / Sorties
 
   * Grégoire Pichon, Université Lyon 1, LIP [email](mailto:gregoire.pichon@univ-lyon1.fr)
   * Nicolas Louvet, pareil, sauf l'adresse :D
   * Version: 2020
-  * pdf généré avec `pandoc -V geometry:margin=2cm -o README.pdf README.md`
+
 
 ## Description du problème
 
