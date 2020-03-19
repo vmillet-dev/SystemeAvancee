@@ -179,7 +179,7 @@ si vous rafraichissez la page, elle disparait : votre script est mort
 * `systemctl --user list-units --type=service` ne fait plus apparaître
   votre service.
 
-La conclusion est que, lorque l'on crée un service simple
+La conclusion est que, lorsque l'on crée un service simple
 (`Type=simple`), et que le script n'est prévu pour s'exécuter qu'une
 seule fois, on ne peut utiliser le service qu'une seul fois !
 
@@ -299,7 +299,7 @@ systemctl --user disable mini-web.service
 
 ## En "mode super-utilisateur"
 
-Logiquement, à ce stade du jeu, vous devez dejà avoir pas mal compris
+Logiquement, à ce stade du jeu, vous devez déjà avoir pas mal compris
 "par la pratique". Maintenant, il s'agit d'adapter les manips pour que
 notre service soit pris en charge par le démon `systemd` de PID 1 :
 ainsi, le service sera disponible dès le démarrage du système (avec
