@@ -1,4 +1,4 @@
-# MIF12-Lab 3: Deamon
+# MIF12-Lab 3: Daemon
 
   * Nicolas Louvet, Grégoire Pichon, Université Lyon 1, LIP [email](mailto:nicolas.louvet@univ-lyon1.fr;gregoire.pichon@univ-lyon1.fr)
   * Version: 2020
