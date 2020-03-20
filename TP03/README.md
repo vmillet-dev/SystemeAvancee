@@ -209,7 +209,7 @@ Après avoir modifié le fichier `mini-web.service` :
   status mini-web.service`.
 
 Observez ce qui se passe quand, dans votre navigateur web, vous
-charger l'url `localhost:8888`, et qu'ensuite vous la rechargez
+chargez l'url `localhost:8888`, et qu'ensuite vous la rechargez
 plusieurs fois à un rythme pas trop rapide (1 ou 2 secondes entre
 chaque frappe de F5) : logiquement, tout doit bien se passer, la page
 se ré-affiche normalement !
