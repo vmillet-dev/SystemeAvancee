@@ -45,9 +45,9 @@ allez sûrement le faire sur votre ordi perso).
 Pour que vous puissiez faire ce TP/tuto, il faut donc que vous
 disposiez d'une distribution GNU/Linux qui utilise systemd, et qui
 lance un systemd à la connexion de chaque utilisateur : avec Ubuntu,
-c'est vérifié ; avec Debian ça doit fonctionner, et avec Fedora
-aussi. Par contre, les auteurs ne peuvent que croiser les doigts pour
-les autres distribs...
+c'est vérifié ; avec Debian ça doit fonctionner, avec Fedora aussi et
+Archlinux également. Par contre, les auteurs ne peuvent que croiser
+les doigts pour les autres distribs...
 
 Notez aussi que les auteurs de ce TP/tuto ne sont pas, pour de vrai,
 des experts de systemd. Voici d'ailleurs les liens qu'ils ont utilisés
@@ -112,14 +112,16 @@ après la ligne `HTTP/1.1 200 OK` (vous pouvez expérimenter). Notez
 aussi :
 
 * l'utilisation du *couteau-suisse TCP-UDP* `nc` ; les auteurs de ces
-lignes ne sont pas des experts, mais s'est bien pratique de savoir
-jouer un peu avec...
+lignes ne sont pas des experts, mais c'est bien pratique de savoir
+jouer un peu avec... À noter qu'il existe plusieurs versions de nc, et
+que la version de ce TP est celle d'OpenBSD (typiquement celle
+utilisée sous Ubuntu). Si vous utilisez la version de GNU (par exemple
+sur Archlinux), la commande sera alors `nc -l -p 8888 -c`
 
 * `nc -l 8888 -q 0` peut être utilisé à la place de `nc -l -p 8888 -c`
 sur certaines distributions (il existe plein de version différente de `nc`).
 
-* l'utilisation d'un *here document*
-  [https://fr.wikipedia.org/wiki/Here_document].
+* l'utilisation d'un [*here document*][https://fr.wikipedia.org/wiki/Here_document].
 
 N'oubliez pas de rendre votre script exécutable avec `chmod +x`, puis
 lancez votre script, et vérifiez avec votre navigateur préféré que le
@@ -142,7 +144,7 @@ Description=Page web de test sur le port 8888
 
 [Service]
 Type=simple
-ExecStart=/home/nlouvet/bin/mini-web.sh
+ExecStart=/home/nlouvet/bin/mini-web.sh # À modifier avec le chemin de votre script
 
 [Install]
 WantedBy=default.target
@@ -150,7 +152,7 @@ WantedBy=default.target
 
 Logiquement, ce fichier doit vous permettre de déclarer le service
 auprès de votre démon systemd utilisateur (voir
-(ici)[https://wiki.archlinux.org/index.php/Systemd/User]).
+[ici][https://wiki.archlinux.org/index.php/Systemd/User]).
 
 Une fois que vous avez enregistré le fichier `mini-web.service` :
 * rechargez votre démon systemd avec `systemctl --user daemon-reload`
@@ -288,7 +290,7 @@ Logiquement, `systemctl` doit vous répondre qu'il crée un lien
 symbolique qui va bien pour que le service soit relancé à votre la
 prochaine connexion.
 
-Pour bien, vous devez maintenant vous déconnecter de votre session
+Pour bien être sûr, vous devez maintenant vous déconnecter de votre session
 graphique, voir redémarrer votre ordi, pour vérifier que vous
 retrouvez bien le service `mini-web.service` frais et dispo lorsque
 vous vous reconnectez !
