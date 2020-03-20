@@ -1,4 +1,4 @@
-# MIF12-Lab 3: Daemon
+# MIF12-Lab TP 3: Daemon
 
   * Nicolas Louvet, Grégoire Pichon, Université Lyon 1, LIP [email](mailto:nicolas.louvet@univ-lyon1.fr;gregoire.pichon@univ-lyon1.fr)
   * Version: 2020
@@ -88,9 +88,9 @@ dans votre config systemd par le suite.
 Créez un script `$HOME/bin/mini-web.sh` avec le contenu initial
 suivant :
 ```
-!/bin/sh
+#!/bin/sh
 
-nc -l 8888 -q 0 <<EOF
+nc -l -p 8888 -c <<EOF
 HTTP/1.1 200 OK
 
 
@@ -114,6 +114,9 @@ aussi :
 * l'utilisation du *couteau-suisse TCP-UDP* `nc` ; les auteurs de ces
 lignes ne sont pas des experts, mais s'est bien pratique de savoir
 jouer un peu avec...
+
+* `nc -l 8888 -q 0` peut être utilisé à la place de `nc -l -p 8888 -c`
+sur certaines distributions (il existe plein de version différente de `nc`).
 
 * l'utilisation d'un *here document*
   [https://fr.wikipedia.org/wiki/Here_document].
@@ -244,7 +247,7 @@ sinon ça ne peut pas fonctionner) :
 
 while true; do
 d=$(date)
-nc -l 8888 -q 0 <<EOF
+nc -l -p 8888 -c <<EOF
 HTTP/1.1 200 OK
 
 
