@@ -1,4 +1,4 @@
-# MIF12-Lab TP 3: Daemon
+# MIF18-Lab TP 3: Daemon
 
   * Nicolas Louvet, Grégoire Pichon, Université Lyon 1, LIP [email](mailto:nicolas.louvet@univ-lyon1.fr;gregoire.pichon@univ-lyon1.fr)
   * Version: 2020
