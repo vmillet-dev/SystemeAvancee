@@ -4,12 +4,16 @@
   * Version: 2020.01
   * Inspired by a lab with Sebastien Mosser, UQAM, Montreal.
   * Other collaborators: Lionel Morel (Insa Lyon), Julien Forget (Lille).
-  * Deadline : TBA : code + a file text describing your answers.
+  * Deadline : Monday, April 24h, 6pm strict, on Tomuss.
+  * [General Instructions for MIF18](../HOWTO_CR_TP_MIF18.md)
+  * Special instructions for this Lab : deliver code from step1 to step4, and your report with your answers to questions (in French or English)
 
 ## Problem Description 
 
 In this lab you will be asked to write simple Arduino programs that
-interact with sensors/actuators. 
+interact with sensors/actuators. The objective is double:
+* Manipulate the platform and the compilation chain
+* Experiment two variants of Arduino programming and compare their pros and cons.
 
 Prerequisite : Test your arduino setting [follow this
 link](_startup.md)
@@ -143,7 +147,7 @@ and use it in the main. Test it!
 ## Feedback Questions
 
   - Is the readability problem solved?
-  - What kind of parallelism can still be expressed?
+  - What kind of parallelism can still be expressed? (task parallelism, instruction parallelism, hardware parallelism) ? 
   - Who is the public targeted by this "language"? It it ok for
     (real-time) system programmers ? 
   - Is this language extensible enough to support new features?
