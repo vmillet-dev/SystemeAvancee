@@ -6,7 +6,7 @@ Common anode : middle wires on grnd (blue or black line)
 Common cathode : middle wires on +5V (red line)
 Do not forget to plug resistors.
 
-a on Digital 1, b on digital 2, .... g on digital 10
+a on Digital 1, b on digital 2, .... g on digital 7
 
 
 ## How to compile?

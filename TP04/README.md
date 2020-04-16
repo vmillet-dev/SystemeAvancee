@@ -49,7 +49,7 @@ Here is the new component assembly:
 
 
 * The seven segment displays can be "common cathode" or "common anode"
-	(common anode for most of us, but please test with the code provided in `_colde/test7seg`). See the startup before making this exercice.
+	(common anode for most of us, but please test with the code provided in `_code/test7seg`). See the startup before making this exercice.
 	
 	
 The objective is to build the following behavior:
