@@ -9,7 +9,7 @@
 
 void init(void)
 {
-  // DDRB is the configuration register for digital 7 to 18
+  // DDRB is the configuration register for digital 8 to 13
   DDRB |= 0b00100000;// Digital 13 "outputmode"
   // TODO : enable write for digital 1 to 7 (7seg)
   // TODO : initialize global state values if required

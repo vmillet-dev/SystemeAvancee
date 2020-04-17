@@ -109,7 +109,7 @@ Some information:
 
 * Plug your 7 segment as if it was Common Anode (most probably it is the case) like in the following picture:
 
-![Arduino Uno + 7 seg Common Anode Vertical](figs/p-7segavec_resistances220.png)
+![Arduino Uno + 7 seg Common Anode Vertical](figs/7segavec_resistances220.png)
 
 (comon anode can be horizontal or vertical, be careful).
 

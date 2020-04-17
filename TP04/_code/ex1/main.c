@@ -11,7 +11,7 @@ int button_state=1; // button state
 
 void init(void)
 {
-  // DDRB is the configuration register for digital 7 to 18
+  // DDRB is the configuration register for digital 8 to 13
   // Set Digital 13 to "outputmode"
   DDRB |= 0b00100000;// Digital 13 "outputmode"
 
