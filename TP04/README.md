@@ -29,7 +29,7 @@ All given code is in this [code directory](_code/)
 ![Button on Port Digital 10](figs/p-boutonpoussoir_arduino.png)
 
 
-*  Write a `int get_reset_value()`
+*  Write a `int get_button_state()`
   function that reads on digital 10 (use `PINB` value and some boolean
   operators). Use it in the `main` to control the led (switch it on to
   off or off to on if the button is pressed).
