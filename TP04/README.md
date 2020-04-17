@@ -4,7 +4,7 @@
   * Version: 2020.01
   * Inspired by a lab with Sebastien Mosser, UQAM, Montreal.
   * Other collaborators: Lionel Morel (Insa Lyon), Julien Forget (Lille).
-  * Deadline : Monday, April 24h, 6pm strict, on Tomuss.
+  * Deadline : Monday, April 20th, 6pm strict, on Tomuss.
   * [General Instructions for MIF18](../HOWTO_CR_TP_MIF18.md)
   * Special instructions for this Lab : deliver code from step1 to step4, and your report with your answers to questions (in French or English)
 
