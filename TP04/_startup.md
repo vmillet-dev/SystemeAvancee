@@ -102,16 +102,14 @@ Some information:
 ![Horizontal Labels](figs/numerotation_7seghorizontal_AC.png) ![Vertical Labels](figs/numerotation_7segvertical_CC.png)
 
 * 7 segment : a on digital 1 via resistor 220 ohm, b on digital 2, ...
-  g on digital 7, according to the preceding numbering. For instance,
-  for out setting (common anode, vertical): 
-  
+  g on digital 7, according to the preceding numbering. 
   
 **Warning, the 7 segment display should be connected though resistors
-(from 220 to 400 ohm)**
+(from 220 to 400 ohm) -- NEW PICTURE**
 
 * Plug your 7 segment as if it was Common Anode (most probably it is the case) like in the following picture:
 
-![Arduino Uno + 7 seg Common Anode Vertical](figs/p-7SegmentAC_verticalV2.png)
+![Arduino Uno + 7 seg Common Anode Vertical](figs/p-7segavec_resistances220.png)
 
 (comon anode can be horizontal or vertical, be careful).
 
