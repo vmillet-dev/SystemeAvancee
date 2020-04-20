@@ -20,4 +20,12 @@ Fichiers étudiants pour MIF18 pour l'année 2019-2020
 :arrow_forward:[link](https://github.com/lauregonnord/mif18-labs20/blob/master/TP04/README.md)
 
 
-## Lab 5 TBA 
+## Lab 5 : Scheduling under Linux (TBA)
+
+:arrow_forward:[link](https://github.com/lauregonnord/mif18-labs20/blob/master/TP05/README.md)
+
+
+## Lab 6 : Scheduling tasks with Arduino (TBA)
+
+:arrow_forward:[link](https://github.com/lauregonnord/mif18-labs20/blob/master/TP06/README.md)
+
